@@ -1,0 +1,39 @@
+.fullscreen-center {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(79, 79, 79);
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button-style {
+  background: blue;
+  color: white;
+  font-size: 20px;
+  padding: 0.7rem 20px;
+}
+.input-style {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 20px;
+}
+.card-box {
+  width: 50%;
+  height: 30%;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.input-flex{
+  display: flex;
+  gap:10px
+}
+
