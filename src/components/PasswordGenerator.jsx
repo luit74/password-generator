@@ -64,8 +64,9 @@ const handleCopyButton = useCallback(()=>{
             />
             <button onClick={handleCopyButton} className="button-style">Copy</button>
           </div>
-          <div className="input-flex" style={{gap:'30px' , marginTop:'2rem'}}>
-            <div className="input-flex">
+          <div className="input-flex" style={{gap:'30px' , marginTop:'2rem' , width:'80%'}}>
+            <div style={{width:'100%' , display:'flex' , gap: '10px' , justifyContent:'center'}}>
+                <div className="input-flex">
               <input
                 type="range"
                 min={6}
@@ -92,6 +93,7 @@ const handleCopyButton = useCallback(()=>{
               onChange={()=>setIsAddCharacter((prev) => !prev)}
                />
               <label htmlFor="addCharacter">Character</label>
+            </div>
             </div>
           </div>
         </div>
